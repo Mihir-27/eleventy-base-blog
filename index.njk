@@ -1,14 +1,37 @@
 ---
 layout: layouts/home.njk
+title: Home
 eleventyNavigation:
   key: Home
   order: 1
 ---
-{% set maxPosts = collections.posts.length | min(3) %}
-<h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
 
-{% set postslist = collections.posts | head(-3) %}
-{% set postslistCounter = collections.posts | length %}
-{% include "postslist.njk" %}
+<section class="home">
+  <div class="intro">
+    <div>
+      <h1>Welcome to my Blog</h1>
+      <p>
+        I use this space to document my adventures in front-end development,
+        sharing how I’ve overcome issues I’ve run into, useful resources, and
+        more.
+      </p>
+      <p>
+        Below are some of my favourite articles, or you can go to the blog page
+        to see my most recent posts.
+      </p>
+      <div class="flex">
+        <a href="/blog" class="btn btn-primary">Recent Articles</a>
+        <a href="#latest" class="btn btn-outline">Latest Posts</a>
+      </div>
+    </div>
+  </div>
+  <div class="latest" id="latest">
+    {% set maxPosts = collections.posts.length | min(4) %}
+    <h2>
+      Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}
+    </h2>
 
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+    {% set postslist = collections.posts | head(-4) %} {% set postslistCounter =
+    collections.posts | length %} {% include "postslist.njk" %}
+  </div>
+</section>
