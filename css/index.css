@@ -326,9 +326,3 @@ section {
   margin: 2px solid var(--clr7);
 }
 
-/* Comment Box */
-
-.commentbox {
-  background: var(--clr1);
-  color: var(--clr7);
-}
