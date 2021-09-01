@@ -15,7 +15,7 @@ templateClass: tmpl-post
     <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
     {%- endfor %}
   </div>
-  <img src="{{ image }}" alt="">
+  <img src="{{ image }}" alt="" />
   {{ content | safe }}
 
   {%- if collections.posts %} {%- set nextPost = collections.posts |
@@ -35,4 +35,5 @@ templateClass: tmpl-post
     {% endif %}
   </ul>
   {%- endif %} {%- endif %}
+  <div class="commentbox"></div>
 </section>
