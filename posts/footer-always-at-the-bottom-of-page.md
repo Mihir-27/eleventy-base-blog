@@ -5,6 +5,7 @@ date: 2021-09-09T11:03:36.293Z
 tags:
   - post
   - css
+layout: layouts/post.njk
 image: https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80
 ---
 Let's make HTML
