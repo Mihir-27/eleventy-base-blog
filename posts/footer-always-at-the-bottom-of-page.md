@@ -15,18 +15,16 @@ Let's make HTML
 
 ```html
 <div class="content">
-      <h1>Footer always at Bottom!</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid error
-        perferendis veritatis, mollitia eum maxime esse et modi? Dicta quo modi
-        labore nobis doloremque eos nam amet maxime fuga esse facilis dolore,
-        mollitia tempore error hic iusto odit. Soluta at exercitationem dolorum
-        mollitia ut ipsam impedit voluptatem aperiam, corrupti ducimus?
-      </p>
-    </div>
-    <footer>
-      I am alway at the Bottom!
-    </footer>
+		<h1>Footer always at Bottom!</h1>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid error perferendis veritatis, mollitia eum maxime esse et
+			modi? Dicta quo modi labore nobis doloremque eos nam amet maxime fuga esse facilis dolore, mollitia tempore error hic
+			iusto odit. Soluta at exercitationem dolorum mollitia ut ipsam impedit voluptatem aperiam, corrupti ducimus?
+		</p>
+	</div>
+	<footer>
+		I am alway at the Bottom!
+	</footer>
 ```
 
 Now let's add the CSS
