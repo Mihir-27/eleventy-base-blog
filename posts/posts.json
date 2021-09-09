@@ -2,5 +2,5 @@
   "tags": [
     "posts"
   ],
-  "layout": "layout/post.njk",
+  "layout": "layouts/post.njk",
 }
