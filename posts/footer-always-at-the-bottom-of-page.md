@@ -1,5 +1,5 @@
 ---
-title: CSS Trics
+title: CSS Tricks
 description: Footer always at the bottom using grid and flex
 date: 2021-09-09T11:03:36.293Z
 tags:
