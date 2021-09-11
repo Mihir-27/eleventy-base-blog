@@ -1,11 +1,11 @@
 ---
-title: Footer always at the bottom of page
-description: Is your content short and the footer is floating. Then let's fix it using flex
+title: CSS Tricks
+description: Footer always at the bottom using grid and flex
 date: 2021-09-09T11:03:36.293Z
 tags:
   - post
   - css
-image: https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80
+image: /img/footer-at-the-bottom.jpg
 ---
 # Footer always at the bottom of page
 
