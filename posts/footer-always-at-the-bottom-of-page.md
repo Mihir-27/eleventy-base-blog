@@ -5,7 +5,7 @@ date: 2021-09-09T11:03:36.293Z
 tags:
   - post
   - css
-image: /img/footer-at-the-bottom.png
+image: /img/footer-at-the-bottom.jpg
 ---
 # Footer always at the bottom of page
 
