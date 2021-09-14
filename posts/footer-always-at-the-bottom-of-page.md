@@ -9,9 +9,11 @@ image: /img/footer-at-the-bottom.jpg
 ---
 # Footer always at the bottom of page
 
-Is your content short and the footer is floating. Then let's fix it using flex
+Is your content short and the footer is floating. 
 
-Let's make HTML
+## Let's try to fix it using **FLEX METHOD**
+
+Here's the HTML
 
 ```html
 <div class="content">
@@ -44,7 +46,9 @@ body {
 }
 ```
 
-Want to see demo
+We are making its height 100%, flex and the direction is column. We are using \`flex:1\` to fill up the space.
+
+### Want to see demo
 
 <iframe src="https://codesandbox.io/embed/footer-at-bottom-flex-l3z96?fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
