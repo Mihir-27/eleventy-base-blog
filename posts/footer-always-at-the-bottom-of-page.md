@@ -48,7 +48,7 @@ body {
 
 We are making its height 100%, flex and the direction is column. We are using `flex:1` to fill up the space.
 
-### Want to see demo
+Want to see demo
 
 <iframe src="https://codesandbox.io/embed/footer-at-bottom-flex-l3z96?fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
@@ -59,7 +59,7 @@ We are making its height 100%, flex and the direction is column. We are using `f
 
 ## Now Let's try **GRID METHOD**
 
-##### Here's the HTML
+Here's the HTML
 
 ```
 <div class="content">
